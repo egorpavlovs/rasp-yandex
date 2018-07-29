@@ -1,8 +1,8 @@
 # Rasp::Yandex
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rasp/yandex`. To experiment with that code, run `bin/console` for an interactive prompt.
+It a simple gem for talking with (rasp.yandex API)[https://tech.yandex.ru/rasp/]
 
-TODO: Delete this and the text above, and describe your gem
+TODO: update
 
 ## Installation
 
@@ -21,8 +21,11 @@ Or install it yourself as:
     $ gem install rasp-yandex
 
 ## Usage
+Before usage this gem, read [documentation](https://tech.yandex.ru/rasp/doc/concepts/about-docpage/) for the (rasp.yandex.ru)[https://rasp.yandex.ru/]
 
-TODO: Write usage instructions here
+TODO: Update usage instructions here
+
+In all methods default params correspond to the parameters specified in the [documentation](https://tech.yandex.ru/rasp/doc/concepts/about-docpage/) for the rasp.yandex
 
 ## Development
 
@@ -32,4 +35,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rasp-yandex.
+Bug reports and pull requests are welcome on GitHub at https://github.com/pavlovegor/rasp-yandex.
