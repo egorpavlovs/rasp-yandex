@@ -26,12 +26,14 @@ After:
 
 1. Initialize client:
 
+```ruby
     Rasp::Yandex::Client.new("Your apikey")
-
+```
 2. Use!
 
+```ruby
     client.timetable_between_stations("c146", "c213", "2018-08-01")
-
+```
 All methods correspond to functions from the documentation from API:
 
 [all_stations](https://tech.yandex.ru/rasp/doc/reference/stations-list-docpage/)
