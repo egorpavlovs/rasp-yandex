@@ -1,6 +1,6 @@
 # Rasp::Yandex
 
-It a simple gem for talking with [rasp.yandex API](https://tech.yandex.ru/rasp/)
+It a simple gem for talking with [rasp.yandex API](https://tech.yandex.ru/rasp/).
 Now supported only API version 3.0
 
 ## Installation
@@ -27,7 +27,7 @@ After:
 1. Initialize client:
 
 ```ruby
-    Rasp::Yandex::Client.new("Your apikey")
+    client = Rasp::Yandex::Client.new("Your apikey")
 ```
 2. Use!
 
