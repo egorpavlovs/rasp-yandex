@@ -42,7 +42,7 @@ module Rasp
         conn.get "/v#{@api_version}/schedule/?apikey=#{@api_key}&station=#{station}&date=#{date}", default_params
       end
 
-      def near_stations(latitude, longitude,  distance, default_params = nil)
+      def near_stations(latitude, longitude, distance, default_params = nil)
         conn = Faraday.new(url: URL) do |faraday|
           faraday.request  :url_encoded
           faraday.response :json, content_type: /\bjson$/
@@ -84,7 +84,7 @@ module Rasp
           faraday.response :json, content_type: /\bjson$/
           faraday.adapter  Faraday.default_adapter
         end
-        conn.get "https://api.rasp.yandex.net/v3.0/copyright/?apikey=#{apikey}&format=#{format}"
+        conn.get "v#{@api_key}/copyright/?apikey=#{@api_key}&format=#{format}"
       end
     end
 
