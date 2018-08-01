@@ -32,15 +32,22 @@ After:
 
     client.timetable_between_stations("c146", "c213", "2018-08-01")
 
-All methods correspond to functions from the documentation from api:
+All methods correspond to functions from the documentation from API:
 
 [all_stations](https://tech.yandex.ru/rasp/doc/reference/stations-list-docpage/)
+
 [timetable_between_stations](https://tech.yandex.ru/rasp/doc/reference/schedule-point-point-docpage/) - if you want to get the schedule for a certain date, then specify it in the method, not in the default data, for example - client.timetable_between_stations ("c146", "c213", "2018-08-01"). If for all time - client.timetable_between_stations ("c146", "c213")
+
 [timetable_at_station](https://tech.yandex.ru/rasp/doc/reference/schedule-on-station-docpage/) - In this method, the date is specified in the same way as in the previous method
+
 [near_stations](https://tech.yandex.ru/rasp/doc/reference/query-nearest-station-docpage/)
+
 [near_city](https://tech.yandex.ru/rasp/doc/reference/nearest-settlement-docpage/)
+
 [stations_of_route](https://tech.yandex.ru/rasp/doc/reference/list-stations-route-docpage/)
+
 [information_about_carrier](https://tech.yandex.ru/rasp/doc/reference/query-carrier-docpage/)
+
 [copyright_yandex_rasp](https://tech.yandex.ru/rasp/doc/reference/query-copyright-docpage/)
 
 ## Development
